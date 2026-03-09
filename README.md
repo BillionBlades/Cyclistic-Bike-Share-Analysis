@@ -6,7 +6,8 @@ Welcome to the Cyclistic bike-sharing service analysis case study! In this case 
 Menganalisis data perjalanan historis Cyclistic untuk mengidentifikasi bagaimana pengendara kasual dan anggota tahunan menggunakan sepeda secara berbeda. Wawasan ini akan digunakan untuk merancang strategi pemasaran yang bertujuan mengonversi pengendara kasual menjadi anggota tahunan demi pertumbuhan profitabilitas perusahaan
 
 
-:two: ## Deskripsi Sumber Data
+## :two: Deskripsi Sumber Data
+[Klik di sini untuk mengunduh data asli](https://divvy-tripdata.s3.amazonaws.com/index.html)
 DataAnalisis ini menggunakan data historis perjalanan Cyclistic selama 12 bulan terakhir (Januari - Desember) yang tersedia untuk publik. 
 Data disediakan oleh Motivate International Inc. di bawah lisensi khusus.
 
