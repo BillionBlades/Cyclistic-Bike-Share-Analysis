@@ -8,7 +8,7 @@ Menganalisis data perjalanan historis Cyclistic untuk mengidentifikasi bagaimana
 
 ## :two: PREPARE 
 ### Deskripsi Sumber Data
-DataAnalisis ini menggunakan data historis perjalanan Cyclistic selama 12 bulan terakhir (Januari - Desember) yang tersedia untuk publik. 
+Data Analisis ini menggunakan data historis perjalanan Cyclistic selama 12 bulan (Januari 2025 - Desember 2025) yang tersedia untuk publik. 
 Data disediakan oleh Motivate International Inc. di bawah lisensi khusus. [Klik di sini untuk mengunduh data asli](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 ### Kredibilitas dan Integritas Data (ROCCC)
