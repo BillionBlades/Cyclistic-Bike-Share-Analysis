@@ -7,9 +7,8 @@ Menganalisis data perjalanan historis Cyclistic untuk mengidentifikasi bagaimana
 
 
 ## :two: Deskripsi Sumber Data
-[Klik di sini untuk mengunduh data asli](https://divvy-tripdata.s3.amazonaws.com/index.html)
 DataAnalisis ini menggunakan data historis perjalanan Cyclistic selama 12 bulan terakhir (Januari - Desember) yang tersedia untuk publik. 
-Data disediakan oleh Motivate International Inc. di bawah lisensi khusus.
+Data disediakan oleh Motivate International Inc. di bawah lisensi khusus. [Klik di sini untuk mengunduh data asli](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 ## Kredibilitas dan Integritas Data (ROCCC)
 Data ini dinilai memiliki kredibilitas tinggi (ROCCC) karena berasal langsung dari pencatatan transaksi perusahaan sepeda di Chicago. Namun, terdapat batasan privasi yang melarang penggunaan informasi pribadi (PII), sehingga analisis tidak dapat mengidentifikasi lokasi tinggal spesifik pengendara atau riwayat pembelian individu.
