@@ -1,12 +1,12 @@
 # Cyclistic-Bike-Share-Analysis
 Welcome to the Cyclistic bike-sharing service analysis case study! In this case study, I work for a fictional company, Cyclistic. alongside several key team members. To answer the business question, I follow the steps of the data analysis process: 1.Ask, 2.Prepare, 3.Process, 4.Analyze, 5.Share, and 6.Act.
 
-:one:
-## Business Task
+
+:one:## Business Task
 Menganalisis data perjalanan historis Cyclistic untuk mengidentifikasi bagaimana pengendara kasual dan anggota tahunan menggunakan sepeda secara berbeda. Wawasan ini akan digunakan untuk merancang strategi pemasaran yang bertujuan mengonversi pengendara kasual menjadi anggota tahunan demi pertumbuhan profitabilitas perusahaan
 
-:two:
-## Deskripsi Sumber Data
+
+:two:## Deskripsi Sumber Data
 DataAnalisis ini menggunakan data historis perjalanan Cyclistic selama 12 bulan terakhir (Januari - Desember) yang tersedia untuk publik. 
 Data disediakan oleh Motivate International Inc. di bawah lisensi khusus.
 
