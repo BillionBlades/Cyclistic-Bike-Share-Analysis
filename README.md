@@ -3,7 +3,7 @@ Selamat datang di studi kasus analisis layanan berbagi sepeda Cyclistic! Dalam s
 
 ## :one: ASK
 ###  Business Task
-Menganalisis data perjalanan historis Cyclistic untuk mengidentifikasi bagaimana pengendara kasual dan anggota tahunan menggunakan sepeda secara berbeda. Wawasan ini akan digunakan untuk merancang strategi pemasaran yang bertujuan mengonversi pengendara kasual menjadi anggota tahunan demi pertumbuhan profitabilitas perusahaan
+Mengidentifikasi perbedaan pola perilaku penggunaan sepeda antara anggota tahunan (annual members) dan pengendara kasual (casual riders) melalui analisis data historis perjalanan Cyclistic. Temuan ini akan digunakan sebagai landasan data untuk merancang strategi pemasaran yang bertujuan mengonversi pengendara kasual menjadi anggota tahunan demi meningkatkan profitabilitas perusahaan.
 
 
 ## :two: PREPARE 
@@ -19,3 +19,17 @@ Data ini dinilai memiliki kredibilitas tinggi (ROCCC) karena berasal langsung da
 
 ### Organisasi Data
 Dataset terdiri dari 12 file CSV terpisah yang berisi detail setiap perjalanan, termasuk jenis sepeda, waktu mulai dan berakhir, lokasi stasiun, dan status keanggotaan pengguna.
+
+## :three: PROCESS
+Pada tahap ini, saya memproses data mentah agar siap dianalisis dengan memastikan kebersihan, konsistensi, dan integritas data. Karena volume data mencapai jutaan baris, saya memilih menggunakan Python (Pandas) untuk efisiensi dan dokumentasi yang dapat direproduksi.
+- Memfilter dan menghapus baris duplikat berdasarkan ride_id.
+- Memfilter null values pada kolom stasiun untuk menjamin akurasi rute.
+- Melakukan string trimming pada nama stasiun agar kategori data konsisten.
+- Membuat kolom ride_length (durasi perjalanan dalam menit).
+- Membuat kolom day_of_week (format 1 = Minggu s/d 7 = Sabtu).
+- Menghapus data dengan durasi nol atau negatif (error sistem).
+- Memfilter data uji coba internal (stasiun berlabel "TEST" atau "HQ QR").
+- Menghapus kolom koordinat (lat/lng) untuk efisiensi performa kueri dan dashboard.
+ 
+Hasil akhir berupa dataset bersih bernama cyclistic_final_clean.csv yang siap digunakan untuk tahap Analyze dan pembuatan Dashboard. Skrip pembersihan lengkap tersedia di folder Scripts/.
+
