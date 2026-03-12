@@ -42,8 +42,8 @@ Casual: Lonjakan drastis terjadi pada akhir pekan (Sabtu–Minggu), mengonfirmas
 
 - Efisiensi Data: Dengan melakukan agregasi terlebih dahulu, ukuran data untuk dashboard berkurang secara signifikan, meningkatkan kecepatan loading visualisasi.
 
-| Kategori | Rata-rata Durasi | Hari Teramai | Pola Utama
---------------------------------------------------------
-| Member | 12 Menit | Selasa - Kamis | Komuter (Rutin)
-| Casual | 28 Menit | Sabtu - Minggu | Rekreasi (Santai)
+| Kategori | Rata-rata Durasi | Hari Teramai | Pola Utama |
+|----------|------------------|--------------|------------|
+| Member | 12 Menit | Selasa - Kamis | Komuter (Rutin) |
+| Casual | 28 Menit | Sabtu - Minggu | Rekreasi (Santai) |
 
