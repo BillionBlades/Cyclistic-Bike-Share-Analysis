@@ -34,9 +34,11 @@ Pada tahap ini, saya memproses data mentah agar siap dianalisis dengan memastika
 Hasil akhir berupa dataset bersih bernama cyclistic_final_clean.csv yang siap digunakan untuk tahap Analyze dan pembuatan Dashboard. Skrip pembersihan lengkap tersedia di folder Scripts/.
 
 ## :four: ANALYZE
-User Behavior: Casual Rider cenderung melakukan perjalanan lebih lama namun tidak rutin, sementara Member Rider memiliki durasi yang singkat namun frekuensi yang sangat stabil di hari kerja.
+-Perilaku Durasi: Pengguna Casual melakukan perjalanan 2x lebih lama dibandingkan pengguna Member, namun dengan frekuensi yang lebih rendah.
 
-Peak Performance: Sabtu adalah hari tersibuk bagi Casual Rider dengan rata-rata durasi tertinggi (31.8 menit). Selasa adalah hari tersibuk bagi Member Rider.
+-Pola Mingguan:
+Member: Paling aktif pada hari kerja (Senin–Jumat), mengonfirmasi profil sebagai Komuter.
+Casual: Lonjakan drastis terjadi pada akhir pekan (Sabtu–Minggu), mengonfirmasi profil sebagai Pengguna Rekreasi.
 
-Business Opportunity: Terdapat peluang besar untuk mengonversi Casual Rider di akhir pekan menjadi Member melalui paket keanggotaan khusus liburan atau akhir pekan.
+-Efisiensi Data: Dengan melakukan agregasi terlebih dahulu, ukuran data untuk dashboard berkurang secara signifikan, meningkatkan kecepatan loading visualisasi.
 
