@@ -34,11 +34,11 @@ Pada tahap ini, saya memproses data mentah agar siap dianalisis dengan memastika
 Hasil akhir berupa dataset bersih bernama cyclistic_final_clean.csv yang siap digunakan untuk tahap Analyze dan pembuatan Dashboard. Skrip pembersihan lengkap tersedia di folder Scripts/.
 
 ## :four: ANALYZE
--Perilaku Durasi: Pengguna Casual melakukan perjalanan 2x lebih lama dibandingkan pengguna Member, namun dengan frekuensi yang lebih rendah.
+- Perilaku Durasi: Pengguna Casual melakukan perjalanan 2x lebih lama dibandingkan pengguna Member, namun dengan frekuensi yang lebih rendah.
 
--Pola Mingguan:
+- Pola Mingguan:
 Member: Paling aktif pada hari kerja (Senin–Jumat), mengonfirmasi profil sebagai Komuter.
 Casual: Lonjakan drastis terjadi pada akhir pekan (Sabtu–Minggu), mengonfirmasi profil sebagai Pengguna Rekreasi.
 
--Efisiensi Data: Dengan melakukan agregasi terlebih dahulu, ukuran data untuk dashboard berkurang secara signifikan, meningkatkan kecepatan loading visualisasi.
+- Efisiensi Data: Dengan melakukan agregasi terlebih dahulu, ukuran data untuk dashboard berkurang secara signifikan, meningkatkan kecepatan loading visualisasi.
 
