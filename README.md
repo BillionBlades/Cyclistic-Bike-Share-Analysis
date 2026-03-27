@@ -52,3 +52,16 @@ Catatan Teknis: Skrip Python yang digunakan untuk menghasilkan agregasi ini dapa
 | Member | 12 Menit | Selasa - Kamis | Komuter (Rutin) |
 | Casual | 28 Menit | Sabtu - Minggu | Rekreasi (Santai) |
 
+## 📊 Share
+Analisis divisualisasikan menggunakan Tableau untuk membandingkan perilaku Member vs Casual.
+**[Lihat Dashboard Interaktif Di Sini](https://public.tableau.com/views/CyclisticBikeShare_17745963908950/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
+## 🚀 ACT
+**Temuan Kunci:**
+* **Casual Riders** bersepeda 2x lebih lama dibandingkan Member.
+* **Members** mendominasi hari kerja (komuter), **Casual** melonjak di akhir pekan (rekreasi).
+
+**Rekomendasi Strategis:**
+1. Kampanye konversi keanggotaan fokus pada akhir pekan.
+2. Promo khusus bagi Casual dengan durasi perjalanan panjang.
+
