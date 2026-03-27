@@ -31,7 +31,7 @@ Pada tahap ini, saya memproses data mentah agar siap dianalisis dengan memastika
 - Memfilter data uji coba internal (stasiun berlabel "TEST" atau "HQ QR").
 - Menghapus kolom koordinat (lat/lng) untuk efisiensi performa kueri dan dashboard.
  
-Hasil akhir berupa dataset bersih bernama cyclistic_final_clean.csv yang siap digunakan untuk tahap Analyze dan pembuatan Dashboard. Skrip pembersihan lengkap tersedia di folder Scripts/.
+Hasil akhir berupa dataset bersih bernama cyclistic_final_clean.csv yang siap digunakan untuk tahap Analyze dan pembuatan Dashboard. Skrip pembersihan lengkap tersedia di folder [Scripts/](path/ke/folder/).
 
 ## :four: ANALYZE
 - Perilaku Durasi: Pengguna Casual melakukan perjalanan 2x lebih lama dibandingkan pengguna Member, namun dengan frekuensi yang lebih rendah.
