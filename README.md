@@ -31,7 +31,7 @@ Pada tahap ini, saya memproses data mentah agar siap dianalisis dengan memastika
 - Memfilter data uji coba internal (stasiun berlabel "TEST" atau "HQ QR").
 - Menghapus kolom koordinat (lat/lng) untuk efisiensi performa kueri dan dashboard.
  
-Hasil akhir berupa dataset bersih bernama cyclistic_final_clean.csv yang siap digunakan untuk tahap Analyze dan pembuatan Dashboard. Skrip pembersihan lengkap tersedia di folder [Scripts/](https://github.com/BillionBlades/Cyclistic-Bike-Share-Analysis/tree/main/scripts).
+Hasil akhir berupa dataset bersih bernama cyclistic_final_clean.csv yang siap digunakan untuk tahap Analyze dan pembuatan Dashboard. Skrip pembersihan lengkap tersedia di folder [Scripts/](scripts).
 
 ## 💡 ANALYZE
 ### Langkah Analisis
@@ -45,7 +45,7 @@ Hasil akhir berupa dataset bersih bernama cyclistic_final_clean.csv yang siap di
 - Casual = Weekend Warriors: Melonjak tajam di akhir pekan dengan durasi perjalanan jauh lebih lama dari pada member.
 - Peluang Bisnis: Kampanye pemasaran harus fokus pada konversi pengguna "akhir pekan" (Casual) menjadi member dengan paket khusus rekreasi.
 
-Catatan Teknis: Skrip Python yang digunakan untuk menghasilkan agregasi ini dapat ditemukan di folder  [Scripts/](https://github.com/BillionBlades/Cyclistic-Bike-Share-Analysis/tree/main/scripts) dengan nama Analyze.ipynb
+Catatan Teknis: Skrip Python yang digunakan untuk menghasilkan agregasi ini dapat ditemukan di folder  [Scripts/](scripts) dengan nama Analyze.ipynb
 
 | Kategori | Rata-rata Durasi | Hari Teramai | Pola Utama |
 |----------|------------------|--------------|------------|
