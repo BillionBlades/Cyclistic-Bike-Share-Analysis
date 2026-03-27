@@ -34,13 +34,16 @@ Pada tahap ini, saya memproses data mentah agar siap dianalisis dengan memastika
 Hasil akhir berupa dataset bersih bernama cyclistic_final_clean.csv yang siap digunakan untuk tahap Analyze dan pembuatan Dashboard. Skrip pembersihan lengkap tersedia di folder [Scripts/](https://github.com/BillionBlades/Cyclistic-Bike-Share-Analysis/tree/main/scripts).
 
 ## :four: ANALYZE
-- Perilaku Durasi: Pengguna Casual melakukan perjalanan 2x lebih lama dibandingkan pengguna Member, namun dengan frekuensi yang lebih rendah.
+### Langkah Analisis
+- Agregasi Data: Mengelompokkan jutaan baris data berdasarkan tipe pengguna (member_casual) dan hari dalam seminggu (day_of_week).
+- Kalkulasi Statistik: Menghitung rata-rata (mean), median, dan frekuensi perjalanan untuk mengidentifikasi perbedaan perilaku yang signifikan.
+- Identifikasi Tren: Menghitung total perjalanan per hari untuk menentukan waktu puncak penggunaan bagi masing-masing kategori.
+- Optimalisasi: Mengekspor hasil ringkasan ke file CSV terpisah guna mempercepat performa visualisasi di tahap Share.
 
-- Pola Mingguan:
-Member: Paling aktif pada hari kerja (Senin–Jumat), mengonfirmasi profil sebagai Komuter.
-Casual: Lonjakan drastis terjadi pada akhir pekan (Sabtu–Minggu), mengonfirmasi profil sebagai Pengguna Rekreasi.
-
-- Efisiensi Data: Dengan melakukan agregasi terlebih dahulu, ukuran data untuk dashboard berkurang secara signifikan, meningkatkan kecepatan loading visualisasi.
+### 💡 Key Insights
+- Member = Komuter: Konsisten di hari kerja dengan durasi singkat.
+- Casual = Weekend Warriors: Melonjak tajam di akhir pekan dengan durasi perjalanan jauh lebih lama dari pada member.
+- Peluang Bisnis: Kampanye pemasaran harus fokus pada konversi pengguna "akhir pekan" (Casual) menjadi member dengan paket khusus rekreasi.
 
 | Kategori | Rata-rata Durasi | Hari Teramai | Pola Utama |
 |----------|------------------|--------------|------------|
