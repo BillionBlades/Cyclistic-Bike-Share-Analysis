@@ -62,6 +62,18 @@ Analisis divisualisasikan menggunakan Tableau untuk membandingkan perilaku Membe
 * **Members** mendominasi hari kerja (komuter), **Casual** melonjak di akhir pekan (rekreasi).
 
 **Rekomendasi Strategis:**
-1. Kampanye konversi keanggotaan fokus pada akhir pekan.
-2. Promo khusus bagi Casual dengan durasi perjalanan panjang.
+1. Kampanye Konversi "Weekend Warrior"
+Target: Pengguna Casual yang rutin bersepeda di hari Sabtu dan Minggu.
+Aksi: Kirimkan notifikasi aplikasi atau email di hari Jumat sore yang menawarkan potongan harga khusus untuk upgrade ke Annual Membership.
+Alasan: Data menunjukkan lonjakan pengguna Casual di akhir pekan. Menawarkan konversi tepat saat mereka ingin bersepeda akan meningkatkan peluang "closing".
+
+2. Paket Keanggotaan Berbasis Durasi (Seasonal Membership)
+Target: Pengguna Casual dengan rata-rata durasi perjalanan di atas 20 menit.
+Aksi: Buat paket keanggotaan musiman (misal: paket 3 bulan musim panas) dengan harga lebih terjangkau daripada keanggotaan tahunan penuh.
+Alasan: Karena durasi Casual 2x lebih lama dari Member, mereka mungkin merasa keanggotaan tahunan terlalu "serius", namun paket musiman akan terasa lebih cocok dengan pola rekreasi mereka.
+
+3. Insentif "Long-Ride" untuk Anggota Tahunan
+Target: Pengguna Casual yang sering melakukan perjalanan panjang.
+Aksi: Berikan poin atau rewards khusus bagi Annual Members yang melakukan perjalanan lebih dari 30 menit (fitur yang saat ini sering digunakan oleh Casual).
+Alasan: Menunjukkan kepada pengguna Casual bahwa menjadi Member bukan hanya untuk komuter (perjalanan singkat), tapi juga memberikan keuntungan ekonomis untuk perjalanan santai yang lama.
 
